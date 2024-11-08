@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 3</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+
+    <div class="loader-wrapper">
+      <div class="loader"></div>
+    </div>
+  <nav class="main-nav">
+    <div class="nav-container">
+      <div class="logo"><img id="logo" src="/assets/products/black and white logo for Urban Vault, a shop selling jewelry, clothing, and electronics with a dominant white color.png" ><div><strong>Urban Vault</strong></div></div>
+      <ul class="nav-links">
+        <li><a href="/index.html"><i class="bi bi-house-door-fill"></i> Home</a></li>
+        <li><a href="/product.html"><i class="fa-brands fa-product-hunt"></i> Products</a></li>
+        <li><a href="/about.html"><i class="bi bi-info-circle-fill"></i> About</a></li>
+        <li><a href="/contact.html"><i class="bi bi-envelope-arrow-up-fill"></i> Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+    <main class="filter-gallery-container">
+      <!-- Filtering radio inputs a nd labels -->
+      <input type="radio" name="filter" id="filter-all" checked />
+      <label for="filter-all" class="filter-btn">All</label>
+
+      <input type="radio" name="filter" id="filter-clothing" />
+      <label for="filter-clothing" class="filter-btn">Clothing</label>
+
+      <input type="radio" name="filter" id="filter-electronics" />
+      <label for="filter-electronics" class="filter-btn">Electronics</label>
+
+      <input type="radio" name="filter" id="filter-jewelry" />
+      <label for="filter-jewelry" class="filter-btn">Jewelry</label>
+
+      <main class="products">
+       
+        <div class="product-item" data-category="electronics">
+          <img
+            src="/Assets/products/Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin.jpg"
+            alt="Mascara image"
+          />
+          <div class="container">
+            <h2>Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin</h2>
+            <h3>R10 597.00</h3>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="clothing">
+          <img
+            src="/Assets/products/BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats.jpg"
+            alt="Mascara image"
+          />
+          <div class="container">
+            <h2>BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats</h2>
+            <h3>R1 008.22</h3>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="clothing">
+          <img
+            src="/Assets/products/DANVOUY Womens T Shirt Casual Cotton Short.jpg"
+            alt="Mascara image"
+          />
+          <div class="container">
+            <h2>DANVOUY Womens T Shirt Casual Cotton Short</h2>
+            <h3>R229.81</h3>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="electronics">
+          <img
+            src="/Assets/products/Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops.jpg"
+            alt="Mascara image"
+          />
+          <div class="container">
+            <h2>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</h2>
+            <h3>R1 945.14</h3>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="jewelry">
+          <img
+            src="/Assets/products/John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet.jpg"
+            alt="Mascara image"
+          />
+          <div class="container">
+            <h2>John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet</h2>
+            <h3>R12 295.35</h3>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="clothing">
+          <img
+            src="/Assets/products/Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket.jpg"
+            alt="Mascara image"
+          />
+          <div class="container">
+            <h2>Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket</h2>
+            <h3>R529.85</h3>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="clothing">
+          <img
+            src="/Assets/products/MBJ Women's Solid Short Sleeve Boat Neck V.jpg"
+            alt="Mascara image"
+          />
+          <div class="container">
+            <h2>MBJ Women's Solid Short Sleeve Boat Neck V</h2>
+            <h3>R174.26</h3>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="clothing">
+          <img
+            src="/Assets/products/Mens Casual Premium Slim Fit T-Shirts.jpg"
+            alt="Mascara image"
+          />
+          <div class="container">
+            <h2>Mens Casual Premium Slim Fit T-Shirts</h2>
+            <h3>R394.51</h3>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="clothing">
+          <img
+            src="/Assets/products/Mens Casual Slim Fit.jpg"
+            alt="Mascara image"
+          />
+          <div class="container">
+            <h2>Mens Casual Slim Fit</h2>
+            <h3>R282.88</h3>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="clothing">
+          <img
+            src="/Assets/products/Mens Cotton Jacket.jpg"
+            alt="Mascara image"
+          />
+          <div class="container">
+            <h2>Mens Cotton Jacket</h2>
+            <h3>R990.53</h3>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="clothing">
+          <img
+            src="/Assets/products/Opna Women's Short Sleeve Moisture.jpg"
+            alt="Mascara image"
+          />
+          <div class="container">
+            <h2>Opna Women's Short Sleeve Moisture</h2>
+            <h3>R140.64</h3>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="jewelry">
+          <img
+            src="/Assets/products/Pierced Owl Rose Gold Plated Stainless Steel Double.jpg"
+            alt="Mascara image"
+          />
+          <div class="container">
+            <h2>Pierced Owl Rose Gold Plated Stainless Steel Double</h2>
+            <h3>R194.43</h3>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="clothing">
+          <img
+            src="/Assets/products/Rain Jacket Women Windbreaker Striped Climbing Raincoats.jpg"
+            alt="Mascara image"
+          />
+          <div class="container">
+            <h2>Rain Jacket Women Windbreaker Striped Climbing Raincoats</h2>
+            <h3>R707.47</h3>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="electronics">
+          <img
+            src="/Assets/products/Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED.jpg"
+            alt="Mascara image"
+          />
+          <div class="container">
+            <h2>Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED</h2>
+            <h3>R17 690.97</h3>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="electronics">
+          <img
+            src="/Assets/products/SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gbs.jpg"
+            alt="Mascara image"
+          />
+          <div class="container">
+            <h2>SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s</h2>
+            <h3>R1 928.34</h3>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="electronics">
+          <img
+            src="/Assets/products/Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5.jpg"
+            alt="Mascara image"
+          />
+          <div class="container">
+            <h2>Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5</h2>
+            <h3>R1 928.34</h3>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="jewelry">
+          <img
+            src="/Assets/products/Solid Gold Petite Micropave.jpg"
+            alt="Mascara image"
+          />
+          <div class="container">
+            <h2>Solid Gold/Silver Petite Micropave</h2>
+            <h3>R2 972.11</h3>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="electronics">
+          <img
+            src="/Assets/products/WD 2TB Elements Portable External Hard Drive - USB 3.0.jpg"
+            alt="Mascara image"
+          />
+          <div class="container">
+            <h2>WD 2TB Elements Portable External Hard Drive - USB 3.0</h2>
+            <h3>R1 132.23</h3>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="electronics">
+          <img
+            src="/Assets/products/WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive.jpg"
+            alt="Mascara image"
+          />
+          <div class="container">
+            <h2>WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive</h2>
+            <h3>R2 016.79</h3>
+            <button>Add To Cart</button>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="jewelry">
+          <img
+            src="/Assets/products/White Gold Plated Princess.jpg"
+            alt="Mascara image"
+          />
+          <div class="container">
+            <h2>White Gold Plated Princess</h2>
+            <h3>R176.73</h3>
+
+            <button>Add To Cart</button>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="https://kit.fontawesome.com/e086fa8a79.js" crossorigin="anonymous"></script>
+  </body>
+</html>
